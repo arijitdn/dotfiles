@@ -1,0 +1,29 @@
+{
+  // General Settings
+  "workbench.startupEditor": "none",
+  "explorer.confirmDelete": false,
+
+  // Zooming and Sizes
+  "window.zoomLevel": 1.5,
+  "editor.mouseWheelZoom": true,
+  "editor.fontSize": 16,
+
+  // Theming and Font
+  "workbench.colorTheme": "Aura Dark",
+  "workbench.iconTheme": "bearded-icons",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.minimap.autohide": true,
+  "breadcrumbs.enabled": false,
+
+  // Formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  // Copilot
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
+}
